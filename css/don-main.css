@@ -1,5 +1,5 @@
 /*Don's main css Style*/
-@import url('https://fonts.googleapis.com/css?family=Fira Sans|Lobster');
+@import url('https://fonts.googleapis.com/css?family=Fira Sans|Pattaya');
 
 /*
 Colours (Dark to light):
@@ -101,8 +101,8 @@ table.table-style-1 {
 
 /*Main navigation menu on all pages*/
 ul.nav-menu {
-	font-family: 'Lobster', sans-serif;
-	font-size: 26pt;
+	font-family: 'Pattaya', sans-serif;
+	font-size: 28pt;
 	list-style-type: none;
 	text-align: center;
 	margin-top: 0;
@@ -115,7 +115,11 @@ ul.nav-menu {
 }
 	/*Holds hamburger menu container*/
 	div.hamburger-menu-container {
-		display: inline-block;
+		display: none;
+		/*display: inline-block;*/
+		/*uncomment to always have it*/
+		padding-top: 12px;
+		position: relative;
 		left: 0;
 		top: 0;
 		width: 40px;
@@ -125,9 +129,10 @@ ul.nav-menu {
 	div.hamburger-menu-line {
 		position: relative;
 		float: center;
-		width: 90%;
+		width: 100%;
 		height: 5px;
 		border-radius: 1px;
+		border-spacing: 0;
 	}
 	div.hamburger-menu-line:nth-child(odd){
 		background: #B18772;
@@ -140,19 +145,23 @@ ul.nav-menu {
 		position: absolute;
 		display: block;
 		width: 100%;
-		float: center;
+		float: right;
 	}
 		ul.nav-menu li{
+			position: relative;
+			display: inline-block;
 			padding: 10px 30px;
 			padding-bottom: 12px;
 			color: #B18772;
 			border-spacing: 0;
 			text-shadow: 1px 1px #85604E;
 			transition: background-color, .5s;
+			height: 50px;
 		}
 
 		li.hamburger-li{
-			float: left;
+			display: none;
+			float: right;
 			border-left: none;
 			box-shadow: none;
 			-webkit-box-shadow: none;
@@ -174,9 +183,12 @@ ul.nav-menu {
 			border-right:none;
 		}
 		/*Hide nav-menu except hamburger on resize*/
-		@media screen and (max-width: 480px){
+		@media screen and (max-width: 800px){
 			div.nav-menu-center-container {
 				display: none !important;
+			}
+			div.hamburger-menu-container{
+				display: inline-block !important;
 			}
 		}
 

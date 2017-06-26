@@ -12,6 +12,7 @@
     <!-- Don Style-->
     <link href="../css/don-main.css" rel="stylesheet">
     <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/hamburger-js.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,13 +22,7 @@
   </head>
   <body>
     <ul class="nav-menu">
-      <div class="nav-menu-center-container">
-        <li class="nav-menu-li">Home</li>
-        <li class="nav-menu-li">Projects</li>
-        <li class="nav-menu-li">Contact</li>
-        <li class="nav-menu-li">About</li>
-      </div>
-      <li class="hamburger-li">
+    <li class="hamburger-li">
         <div class="hamburger-menu-container">
           <div class="hamburger-menu-line"></div>
           <div class="hamburger-menu-line"></div>
@@ -36,6 +31,12 @@
           <div class="hamburger-menu-line"></div>
         </div>
       </li>
+      <div class="nav-menu-center-container">
+        <li class="nav-menu-li">Home</li>
+        <li class="nav-menu-li">Projects</li>
+        <li class="nav-menu-li">About</li>
+        <li class="nav-menu-li">Contact</li>
+      </div>
     </ul>
     <div class="topcenter">
       <table class="table-style-1">
