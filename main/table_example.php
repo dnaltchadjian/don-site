@@ -21,50 +21,60 @@
     <![endif]-->
   </head>
   <body>
-    <ul class="nav-menu">
-    <li class="hamburger-li">
-        <div class="hamburger-menu-container">
-          <div class="hamburger-menu-line"></div>
-          <div class="hamburger-menu-line"></div>
-          <div class="hamburger-menu-line"></div>
-          <div class="hamburger-menu-line"></div>
-          <div class="hamburger-menu-line"></div>
-        </div>
-      </li>
-      <div class="nav-menu-center-container">
-        <li class="nav-menu-li">Home</li>
-        <li class="nav-menu-li">Projects</li>
-        <li class="nav-menu-li">About</li>
-        <li class="nav-menu-li">Contact</li>
+    <div class="full-bg">
+      <div class="screen-cover">
       </div>
-    </ul>
-    <div class="topcenter">
-      <table class="table-style-1">
-        <thead class="thead-style-1">
-          <tr>
-            <th>Coffee Brand</th>
-            <th>Coffee Flavour</th>
-            <th>Rating</th>
-          </tr>
-        </thead>
-        <tbody class="tbody-style-1">
-          <tr>
-            <td>Tim Horton's</td>
-            <td><a href="http://www.timhortons.com/ca/en/menu/dark-roast.php" target="_new">Dark Roast</a></td>
-            <td>6/10</td>
-          </tr>
-          <tr>
-            <td>McDonald's</td>
-            <td><a href="http://www4.mcdonalds.ca/mccafe_eng/" target="_new">Premium Roast</a></td>
-            <td>8/10</td>
-          </tr>
-          <tr>
-            <td>Timothy's</td>
-            <td><a href="http://www.timothys.ca/products/coffee-k-cup-packs-midnight-magic-extra-bold.php" target="_new">Midnight Magic</a></td>
-            <td>7/10</td>
-          </tr>
-        </tbody>
-      </table>
+      <ul class="nav-menu">
+      <li class="hamburger-li">
+          <div class="hamburger-menu-container">
+            <div class="hamburger-menu-line"></div>
+            <div class="hamburger-menu-line"></div>
+            <div class="hamburger-menu-line"></div>
+            <div class="hamburger-menu-line"></div>
+            <div class="hamburger-menu-line"></div>
+          </div>
+        </li>
+        <div class="nav-menu-center-container">
+          <li class="nav-menu-li">Home</li>
+          <li class="nav-menu-li">Projects</li>
+          <li class="nav-menu-li">About</li>
+          <li class="nav-menu-li">Contact</li>
+        </div>
+      </ul>
+      <ul class="hnav-menu">
+        <li class="hnav-menu-li">Home</li>
+        <li class="hnav-menu-li">Projects</li>
+        <li class="hnav-menu-li">About</li>
+        <li class="hnav-menu-li">Contact</li>
+      </ul>
+      <div class="topcenter">
+        <table class="table-style-1">
+          <thead class="thead-style-1">
+            <tr>
+              <th>Coffee Brand</th>
+              <th>Coffee Flavour</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody class="tbody-style-1">
+            <tr>
+              <td>Tim Horton's</td>
+              <td><a href="http://www.timhortons.com/ca/en/menu/dark-roast.php" target="_new">Dark Roast</a></td>
+              <td>6/10</td>
+            </tr>
+            <tr>
+              <td>McDonald's</td>
+              <td><a href="http://www4.mcdonalds.ca/mccafe_eng/" target="_new">Premium Roast</a></td>
+              <td>8/10</td>
+            </tr>
+            <tr>
+              <td>Timothy's</td>
+              <td><a href="http://www.timothys.ca/products/coffee-k-cup-packs-midnight-magic-extra-bold.php" target="_new">Midnight Magic</a></td>
+              <td>7/10</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
