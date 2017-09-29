@@ -1,5 +1,5 @@
 /*Don's main css Style*/
-@import url('https://fonts.googleapis.com/css?family=Fira Sans|Pattaya|Jaldi');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Pattaya|Jaldi|Lobster|Open+Sans');
 
 /*
 Colours (Dark to light):
@@ -112,7 +112,7 @@ table.table-style-1 {
 
 /*Main navigation menu on all pages*/
 ul.nav-menu {
-	font-family: 'Pattaya', sans-serif;
+	font-family: 'Lobster', serif;
 	font-size: 28pt;
 	list-style-type: none;
 	text-align: center;
@@ -122,7 +122,7 @@ ul.nav-menu {
 	position: fixed;
 	height: auto;
 	overflow: hidden;
-	background-color: #203142;
+	background-color: #181818;
 	opacity: 0.9;
 }
 	/*Holds hamburger menu container*/
@@ -166,7 +166,7 @@ ul.nav-menu {
 			padding-bottom: 12px;
 			color: #B18772;
 			border-spacing: 0;
-			text-shadow: 1px 1px #85604E;
+			text-shadow: 1px 1px #663F2D;
 			transition: background-color, .5s;
 			height: 50px;
 		}
